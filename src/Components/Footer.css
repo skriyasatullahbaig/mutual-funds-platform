@@ -1,0 +1,9 @@
+.footer {
+    padding: 10px; /* Adjust the padding as needed */
+    margin: 0; /* Ensure no extra margin */
+    background-color: black; /* Set the background color to black */
+    color: white; /* Set the text color to white for visibility */
+    text-align: center; /* Center the text */
+    font-size: 12px; /* Decrease font size */
+    border-top: 1px solid #ccc; /* Optional: add a top border */
+}

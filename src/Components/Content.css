@@ -1,0 +1,36 @@
+/* src/Components/Content.css */
+.content {
+    padding: 20px;
+    background-color: #f9f9f9;
+    max-width: 1200px; /* Set a maximum width for the container */
+    margin: 0 auto; /* Center the container */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add shadow to the container */
+    border-radius: 8px; /* Optional: Rounded corners for the container */
+}
+
+.roles-container {
+    display: grid; /* Use grid layout */
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 20px; /* Space between the boxes */
+}
+
+.role {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff; /* Optional: background color for the boxes */
+}
+
+/* Additional responsive styles */
+@media (max-width: 768px) {
+    .roles-container {
+        grid-template-columns: 1fr; /* Stack columns on smaller screens */
+    }
+}
+
+@media (max-width: 1200px) {
+    .content {
+        padding: 15px; /* Reduce padding on medium screens */
+    }
+}

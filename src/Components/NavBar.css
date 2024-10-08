@@ -1,0 +1,30 @@
+.navbar {
+    background-color: #007bff; /* Navbar background color */
+    padding: 10px 20px; /* Spacing inside the navbar */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Align items to the center */
+}
+
+.navbar-list {
+    list-style-type: none; /* Remove bullet points */
+    display: flex; /* Align items horizontally */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.navbar-item {
+    margin: 0 10px; /* Space between buttons */
+}
+
+.navbar-item a {
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline */
+    padding: 10px 20px; /* Padding for buttons */
+    background-color: #0056b3; /* Button background color */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Transition effect */
+}
+
+.navbar-item a:hover {
+    background-color: #003f7f; /* Darker background on hover */
+}

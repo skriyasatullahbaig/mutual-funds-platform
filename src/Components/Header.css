@@ -1,0 +1,37 @@
+/* src/Components/Header.css */
+.header {
+    background-color: #007bff; /* Background color of the header */
+    color: white; /* Text color */
+    padding: 20px; /* Padding around the content */
+    text-align: center; /* Center align text */
+    position: relative; /* Position relative for absolute elements */
+}
+
+.auth-buttons {
+    position: absolute; /* Position buttons absolutely within header */
+    right: 20px; /* Distance from right */
+    top: 20px; /* Distance from top */
+}
+
+.auth-buttons .button {
+    background-color: white; /* Button background color */
+    color: #007bff; /* Text color */
+    padding: 10px 15px; /* Padding inside the button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    margin-left: 10px; /* Space between buttons */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.auth-buttons .button:hover {
+    background-color: #e2e6ea; /* Background color on hover */
+}
+
+h1 {
+    margin: 10px 0; /* Margin for heading */
+}
+
+p {
+    margin: 0; /* No margin for paragraph */
+}
